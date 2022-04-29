@@ -17,4 +17,3 @@ def play(self, U1, U2):
     a1 = np.random.choice(A1)
     return a1 
 ```
-
