@@ -1,6 +1,6 @@
 # Competition 2: Bimatrixspil 
 
-I denne konkurrence skal du skrive en spillerfunktion, der kan spille bimatrixspil. Når du er færdig, skal du navngive din fil `player.py`, og lægge den i mappen `./submission/` og committe. Husk at sætte dens property `name = 'xxx'`, hvor `xxx` skal være et navn, som du vil bruge i samtlige konkurrencer i kurset.
+I denne konkurrence skal du skrive en spillerfunktion, der kan spille bimatrixspil. Når du er færdig, skal du navngive din fil `player.py`, og lægge den i mappen `./submission/` og committe. Husk at sætte dens property `name = 'xxx'`, hvor `xxx` skal være et navn, som du vil bruge i samtlige konkurrencer i kurset. 
 
 Den medfølgende notebook, `comp2-discrete.ipynb` loader spillerfunktioner fra mappen `./players/` og opstiller en turnering, hvor de kan spille imod hinanden. 
 
@@ -17,3 +17,4 @@ def play(self, U1, U2):
     a1 = np.random.choice(A1)
     return a1 
 ```
+
