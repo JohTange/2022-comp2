@@ -15,6 +15,10 @@ def play(self, U1, U2):
     na1,na2 = U1.shape
     A1 = np.arange(na1)
     a1 = np.random.choice(A1)
-    return a1 
+    return a1 # must be an integer in {0,1,...,na1-1}
 ```
+
+Bemærk: din spiller funktion skal returnere en integer i {0,1,...,na1-1}, svarende til den handlingen for den række, som du vil vælge. 
+
+**Tilfældighed:** Du må gerne bruge tilfældighed, fx `np.random.choice()` til at vælge blandt flere kandidater. Turneringen vil blive gentaget 100 gange mellem dig og din modstander for at midle sådan tilfældighed ud. 
 
